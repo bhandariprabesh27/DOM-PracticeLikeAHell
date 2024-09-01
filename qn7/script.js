@@ -6,7 +6,7 @@ var count = 0;
 var intrvl = setInterval(function () {
   if (count === 100) {
     selecth3.style.opacity = "1";
-    clearInterval(int);
+    clearInterval(intrvl);
   }
   count++;
   pgr.style.width = count + "%";
