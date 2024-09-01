@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  width: 100%;
+  height: 100%;
+  background-color: #f2f0f0;
+}
+.container {
+  padding: 10vw 25vw;
+}
+input {
+  width: 100%;
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: 1px solid #dadada;
+  outline-color: royalblue;
+}
+.people {
+  display: flex;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+.person {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.picture {
+  border-radius: 50%;
+  border: 2px solid #dadada;
+  height: 7vw;
+  width: 7vw;
+  background-color: red;
+  overflow: hidden;
+}
+.picture img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
